@@ -1,0 +1,19 @@
+{
+  "name": "zr8x-comms-bot",
+  "version": "1.0.0",
+  "description": "A bot for zr8x's comms",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCMODDER11/zr8x-comms-bot.git"
+  },
+  "author": "zr8x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCMODDER11/zr8x-comms-bot/issues"
+  },
+  "homepage": "https://github.com/MCMODDER11/zr8x-comms-bot#readme"
+}
