@@ -1,23 +1,44 @@
 {
-  "name": "zr8x-comms-bot",
-  "version": "1.0.0",
-  "description": "A bot for zr8x's comms",
-  "main": "bot.js",
-  "scripts": {
-    "test": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MCMODDER11/zr8x-comms-bot.git"
-  },
-  "author": "zr8x",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MCMODDER11/zr8x-comms-bot/issues"
-  },
-  "homepage": "https://github.com/MCMODDER11/zr8x-comms-bot#readme",
-  "dependencies": {
-    "discord.js": "^14.11.0",
-    "dotenv": "^16.0.3"
-  }
+	"name": "discordbot-template",
+	"version": "3.3.0",
+	"description": "A modified template based on discordjs.guide to create your own discord-js based bot!",
+	"funding": "https://ko-fi.com/namanvrati",
+	"types": "./typings.d.ts",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NamVr/DiscordBot-Template.git"
+	},
+	"keywords": [
+		"discord-js"
+	],
+	"author": {
+		"name": "Naman Vrati",
+		"url": "https://github.com/NamVr",
+		"email": "info@namanvrati.cf"
+	},
+	"contributors": [
+		{
+			"name": "Krish Garg",
+			"url": "https://github.com/KrishGarg"
+		},
+		{
+			"name": "Thomas Fournier",
+			"email": "thomas@artivain.com",
+			"url": "https://github.com/GoudronViande24"
+		}
+	],
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/NamVr/DiscordBot-Template/issues"
+	},
+	"homepage": "https://github.com/NamVr/DiscordBot-Template#readme",
+	"dependencies": {
+		"@discordjs/rest": "^1.0.0",
+		"discord-api-types": "^0.36.2",
+		"discord.js": "^14.0.2"
+	}
 }
