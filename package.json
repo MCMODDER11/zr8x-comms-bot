@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MCMODDER11/zr8x-comms-bot/issues"
   },
-  "homepage": "https://github.com/MCMODDER11/zr8x-comms-bot#readme"
+  "homepage": "https://github.com/MCMODDER11/zr8x-comms-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3"
+  }
 }
